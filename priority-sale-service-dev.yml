@@ -7,7 +7,7 @@ spring:
             ddl-auto: update
     datasource:
         url: jdbc:mysql://mysql:3307/adidas?createDatabaseIfNotExist=true
-        username: root
+        username: user
         password: 1111
         driver-class-name: com.mysql.jdbc.Driver
         database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
